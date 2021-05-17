@@ -1,0 +1,115 @@
+
+input{
+    height:40px;
+    width: 40px;
+    font-size:14pt;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0,0, .5);
+}
+
+
+.form-control{
+    height:40px;
+    width: 40px;
+    font-size:14pt;
+}
+
+.amount{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.donationbutton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.donation-button{
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+.donate_button{
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+#c1{
+box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  background: #fff;
+  width: 380px;
+  padding: 1.5rem;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: space around;
+    
+}
+
+.donationbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.db1{
+    width: 30%;
+  padding: 1.5rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  background:linear-gradient(to right, rgba(255,0,0,0), #f0f8ff);
+  font-size: 15px;
+    font-family: 'Raleway',sans-serif;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+
+.Container{
+    background-image: url("./donatebg.jpg");
+    background-size: cover;
+}
+
+.history{
+    background: linear-gradient(to right, rgba(255,0,0,0), #ebf7f7);
+    font-size: 18px;
+    font-family: 'Raleway',sans-serif;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+
+
+#nav{
+    background: linear-gradient(to right, rgba(255,0,0,0), hsl(180, 71%, 90%));
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Raleway',sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    padding-left: 34%;
+    padding-right: 34%;
+}
+
+.message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Raleway',sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    background: linear-gradient(to right, rgba(255,0,0,0), hsl(180, 71%, 90%));
+
+}
